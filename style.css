@@ -151,15 +151,15 @@
 }
 
 .categoryes_list {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 32px;
     list-style: none;
-    flex-wrap: wrap;
 }
 
 .categpryes_item {
-    width: 160px;
+    flex-grow: 1;
     height: 128px;
     background: var(--lightGray2);
     border-radius: 15px;

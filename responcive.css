@@ -1,3 +1,18 @@
+
+@media(max-width:900px){
+    .categoryes_list{
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    .categpryes_item{
+        flex-grow: 0;
+        width: 160px;
+    }
+    .section2{
+        margin-top: 100px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .products_container {
